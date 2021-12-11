@@ -1,8 +1,11 @@
+
+
 ingredientescomunes = ['mozzarella', 'tomate']
 ingredientesveggies = ['pimiento', 'tofu']
 ingredientesnoveggies = ['peperoni', 'jamón', 'salmón']
 
-pedido = input('\n Buenas noches, por favor ingrese "V" para pizza veggie y "C" para pizza común: \n')
+pedido = input('\n Buenas noches, por favor ingrese "V" para pizza veggie y "C" para pizza común: ')
+print('\n')
 
 
 print('Su pizza contiene los siguientes ingredientes: \n')
@@ -18,3 +21,7 @@ if pedido == 'c':
         print(i)
     for i in ingredientesnoveggies:
         print(i)
+
+print('\n' )
+print('Gracias por elegirnos :)  \n')
+print('Esperamos volver a verle pronto')
