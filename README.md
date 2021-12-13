@@ -1,4 +1,4 @@
-# platzi/curso git
+# ejercicios phyton
 
 / este repositorio fue creado para practicar cosas del curso de Git y Github de Platzi /
 A partir del ejercicio de Pizza, 
