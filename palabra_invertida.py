@@ -8,3 +8,12 @@ por pantalla una a una las letras de la palabra introducida empezando por la úl
 palabra = input('Ingresá una palabra cualquiera: ')
 invertida = palabra[::-1]
 print(invertida)
+
+
+""" SOLUCIÓN ALF, USANDO FOR, ERA LA IDEA!
+word = input("Introduce una palabra: ")
+for i in range(len(word)-1, -1, -1):
+    print(word[i])
+
+
+"""
