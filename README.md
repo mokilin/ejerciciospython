@@ -1,4 +1,4 @@
 # ejercicios phyton
-creado para practicar cosas del curso de Git y Github de Platzi /
+De aprendeconalf.es
 los primeros ejercicios no tienen enunciado, sorry! 
 
