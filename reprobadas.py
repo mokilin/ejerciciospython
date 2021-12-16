@@ -7,15 +7,28 @@ Escribir un programa que almacene las asignaturas de un curso
 """
 
 subjects = ['Matemáticas', 'Física', 'Química', 'Historia' , 'Lengua']
+allmarks=[]
 retake = []
 
 for i in subjects:
     mark = int(input('Nota promedio obtenida en ' + i + ' '))
-    if mark < 6:
-        retake.append(i)
+    allmarks.append(mark)
+    
+    
+    
+    #if mark < 6:
+        #retake.append(i)
 
 print('\n')
 
+
+retake = list(filter(lambda i: i < 6, allmarks))
+
 for i in retake:
-    print('Debes recursar '+ i)
+    print('Debes recursar '+ str(i))
+
+    #pares = list(filter(lambda i: i%2 == 0, my_list))
+
+# retake = list(filter(lambda i: i < 6, subjects))
+
 
