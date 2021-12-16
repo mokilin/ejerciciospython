@@ -7,7 +7,7 @@ los muestre por pantalla ordenados de menor a mayor.
 awarded = []
 for i in range(6):
     awarded.append(int(input("Introduce un número ganador: ")))
-awarded.sort()
+awarded.sort() #funcion que ordena los numeros
 print("Los números ganadores son " + str(awarded))
 
 
